@@ -17,7 +17,7 @@ def update():
         'part' : 'snippet' , 
         'maxResults' : 10 ,
         'order' : 'date' ,
-        'q' : 'software' ,
+        'q' : 'software' ,                  # Query to be Searched for
         'key' : config.api_key ,
         'publishedAfter'  : latest_date
     }

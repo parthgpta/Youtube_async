@@ -5,5 +5,5 @@ from .api import update
 
 def start():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(update, 'interval', seconds=5)
+    scheduler.add_job(update, 'interval', seconds=15)
     scheduler.start()

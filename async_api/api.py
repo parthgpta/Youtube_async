@@ -1,7 +1,6 @@
 import time
 import requests , json
 from api.models import video_data , latest 
-import config
 
 
 def update():
